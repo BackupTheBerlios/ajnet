@@ -27,7 +27,7 @@
  * @author     Kersten Burkhardt <kerstenk@gmail.com>
  * @copyright  2007 Kersten Burkhardt
  * @license    http://www.gnu.org/licenses/gpl.txt  GNU General Public License
- * @version    CVS: $Id: config.inc.php,v 1.1 2007/05/31 08:35:13 gottmodus Exp $
+ * @version    CVS: $Id: config.inc.php,v 1.2 2007/05/31 08:35:51 gottmodus Exp $
  * @since      File available since Release 0.0.1
  */
 
@@ -41,7 +41,7 @@
 define('MYSQL_USER', 'user');
 define('MYSQL_PASSWORD', 'pass');
 define('MYSQL_HOST', 'host');
-define('MYSQL_PORT', port);
+define('MYSQL_PORT', 3306);
 define('MYSQL_DATABASE', 'database');
 
 // }}}
