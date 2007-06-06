@@ -1,4 +1,4 @@
 <?php
 	require_once('../include/config.inc.php');
-	header('Location: '. $baseURL);
+	header('Location: http://'. BASE_URL);
 ?>

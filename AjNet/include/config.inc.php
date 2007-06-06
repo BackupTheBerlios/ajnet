@@ -27,9 +27,11 @@
  * @author     Kersten Burkhardt <kerstenk@gmail.com>
  * @copyright  2007 Kersten Burkhardt
  * @license    http://www.gnu.org/licenses/gpl.txt  GNU General Public License
- * @version    CVS: $Id: config.inc.php,v 1.3 2007/06/06 10:43:56 gottmodus Exp $
+ * @version    CVS: $Id: config.inc.php,v 1.4 2007/06/06 14:57:57 gottmodus Exp $
  * @since      File available since Release 0.0.1
  */
+
+$BASE_WEBDIR = '/a';
 
 // {{{ constants
 
@@ -46,7 +48,7 @@ define('MYSQL_DATABASE', 'database');
 
 // Base project settings
 define('BASE_PATH', $_SERVER['DOCUMENT_ROOT']);
-define('BASE_URL', $_SERVER['HTTP_HOST']);
+define('BASE_URL', $_SERVER['HTTP_HOST'] . $BASE_WEBDIR);
 
 // }}}
 ?>
